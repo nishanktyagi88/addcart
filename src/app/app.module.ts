@@ -9,13 +9,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { CartComponent } from './components/cart/cart.component';
 import { FilterPipe } from './shared/filter.pipe';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { PaymentComponent } from './components/payment/payment.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ProductsComponent,
     CartComponent,
-    FilterPipe
+    FilterPipe,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,
